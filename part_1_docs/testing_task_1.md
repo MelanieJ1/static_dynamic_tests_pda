@@ -47,7 +47,7 @@ def cards_total(self, cards):
   for card in cards:
     total += card.value
     return "You have a total of" + total
-# Total should start at 0 so it should be writen as total = 0
+# Total should start at 0 so it should be writen as total = 0.  The total in the return statement needs to be converted to a string. 
   
   
 ```
