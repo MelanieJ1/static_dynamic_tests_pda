@@ -12,7 +12,7 @@ class TestCardGame(unittest.TestCase):
         self.card_round = CardGame([self.card_1, self.card_2])
 
     def test_for_ace(self):
-        self.assertEqual(1, self.card_round.check_for_ace(self.card_1))
+        self.assertTrue(1, self.card_round.check_for_ace(self.card_1))
 
     
     def test_for_highest_card(self):
